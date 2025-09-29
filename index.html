@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tela de Controle - Janela Realista</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container" id="container"></div>
+
+<button class="add-btn" id="addBtn">+</button>
+
+<!-- Modal -->
+<div class="modal" id="modal">
+  <div class="modal-content">
+    <h3>Selecione os tipos de janelas</h3>
+    <label><input type="checkbox" value="texto" class="type-checkbox"> Texto</label>
+    <label><input type="checkbox" value="aviso" class="type-checkbox"> Aviso</label>
+    <label><input type="checkbox" value="grafico" class="type-checkbox"> Gráfico</label>
+    <button id="createBtn">Criar</button>
+  </div>
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
